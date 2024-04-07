@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover ;
+    color: #fff;
+    height: 100vh;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+ a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+ion-icon{
+    font-size: 0.8em;
+}
+
+.title {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.base {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 400px;
+}
+
+.form-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-box {
+    margin: 0 auto;
+    width: 310px;
+    padding: 10px;
+}
+
+.input-box{
+    position: relative;
+    margin: 25px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.company{
+    color: #fff;
+}
+
+input.company::placeholder {
+    color: #ee997a;
+}
+.company input::-webkit-input-placeholder {color:#ee997a;}
+.company input::-moz-placeholder {color:#ee997a;}
+.company input:-moz-placeholder {color:#ee997a;}
+.company input:-ms-input-placeholder {color:#ee997a;}
+
+.input-box label{
+    top:-20%;
+    position: absolute;
+    color: #fff;
+    font-size: 1em;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.input-box ion-icon{
+    color: #fff;
+    position: absolute;
+    right: 8px;
+    font-size: 1em;
+    top: 20px;
+}
+
+.select-box{
+    margin: 20px 0;
+    width: 310px;
+}
+
+.select-box select{
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    /*color:#000;*/
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    height: 25px;
+}
