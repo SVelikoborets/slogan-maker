@@ -1,9 +1,7 @@
   <section class="base">
       <div class="box">
           <div class="form-inner">
-              <h2>Slogan-maker
-                  <ion-icon name="bulb-outline"></ion-icon>
-              </h2>
+              <h2>Slogan-maker <ion-icon name="bulb-outline"></ion-icon></h2>
               <h4 class="title">Стань успешным за три слова</h4>
               <form class="table-box" action ="check" method="Post">
                   <div class="input-box">
